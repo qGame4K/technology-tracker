@@ -6,7 +6,7 @@ function Header({ roadmap, progress, onExport, progressPercentage }) {
     <header className="app-header">
       <div className="header-content">
         <div className="header-title">
-          <h1>📚 Трекер Дорожных Карт</h1>
+          <h1>ROADMAP загрузчик</h1>
           {roadmap && <p className="subtitle">{roadmap.title}</p>}
         </div>
 
@@ -35,7 +35,7 @@ function Header({ roadmap, progress, onExport, progressPercentage }) {
 
         {roadmap && onExport && (
           <button className="export-btn" onClick={onExport}>
-            💾 Сохранить прогресс
+            Сохранить прогресс
           </button>
         )}
       </div>

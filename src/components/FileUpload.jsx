@@ -34,7 +34,7 @@ function FileUpload({ onFileUpload }) {
         onDragOver={handleDragOver}
       >
         <div className="upload-content">
-          <p className="upload-icon">📂</p>
+          <p className="upload-icon"></p>
           <h2>Загрузи дорожную карту</h2>
           <p className="upload-description">
             Перетащи JSON файл или нажми для выбора
