@@ -1,0 +1,128 @@
+{
+  "title": "React — Advanced Roadmap",
+  "description": "Полная дорожная карта по изучению React с примерами, продвинутыми темами и ссылками на лучшие ресурсы.",
+  "topics": [
+    {
+      "id": "basics-jsx",
+      "title": "JSX и рендеринг",
+      "description": "Базовые правила и практика вёрстки на JSX, приемы компоновки.",
+      "resources": [
+        "https://react.dev/learn/writing-markup-with-jsx",
+        "https://ru.react.dev/learn/your-first-component"
+      ]
+    },
+    {
+      "id": "core-components",
+      "title": "Функциональные компоненты и props",
+      "description": "Передача данных, организация и композиция компонентов.",
+      "resources": [
+        "https://react.dev/learn/your-first-component",
+        "https://react.dev/learn/passing-props-to-a-component",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk"
+      ],
+      "subtopics": [
+        {
+          "id": "core-components-children",
+          "title": "Дочерние элементы (children)",
+          "description": "Вложенность, композиция, паттерны children.",
+          "resources": [
+            "https://ru.react.dev/reference/react/Children"
+          ]
+        },
+        {
+          "id": "core-components-fragment",
+          "title": "Фрагменты (Fragment)",
+          "description": "Группировка JSX без лишних обёрток.",
+          "resources": [
+            "https://react.dev/reference/react/Fragment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "Управление состоянием",
+      "description": "Хуки useState, useReducer, паттерны управления состоянием.",
+      "resources": [
+        "https://react.dev/learn/state-a-components-memory",
+        "https://react.dev/reference/react/useState",
+        "https://react.dev/reference/react/useReducer"
+      ],
+      "subtopics": [
+        {
+          "id": "state-lifting",
+          "title": "Подъём состояния (lifting state up)",
+          "description": "Как поднимать состояние вверх по дереву компонентов.",
+          "resources": [
+            "https://react.dev/learn/sharing-state-between-components"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side-effects",
+      "title": "Побочные эффекты (useEffect, useLayoutEffect)",
+      "description": "Работа с жизненным циклом, асинхронность, подписки.",
+      "resources": [
+        "https://react.dev/reference/react/useEffect",
+        "https://react.dev/reference/react/useLayoutEffect"
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Формы и обработка ввода",
+      "description": "Контролируемые и неконтролируемые компоненты, валидация.",
+      "resources": [
+        "https://react.dev/learn/forms",
+        "https://react.dev/reference/react-dom/components/input"
+      ]
+    },
+    {
+      "id": "routing",
+      "title": "Маршрутизация и вложенные роуты (React Router)",
+      "description": "Реализация многостраничных интерфейсов в SPA.",
+      "resources": [
+        "https://reactrouter.com/en/main",
+        "https://habr.com/ru/articles/570016/"
+      ],
+      "subtopics": [
+        {
+          "id": "routing-nested",
+          "title": "Вложенные роуты",
+          "description": "Роутинг для сложных интерфейсов.",
+          "resources": [
+            "https://reactrouter.com/en/main/start/overview#nested-routes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "title": "Context API",
+      "description": "Передача данных между компонентами без prop drilling.",
+      "resources": [
+        "https://react.dev/learn/passing-data-deeply-with-context",
+        "https://react.dev/reference/react/useContext"
+      ]
+    },
+    {
+      "id": "perf-optimizations",
+      "title": "Оптимизация производительности",
+      "description": "React.memo, useMemo, useCallback, профилирование.",
+      "resources": [
+        "https://react.dev/learn/optimizing-performance",
+        "https://react.dev/reference/react/memo"
+      ]
+    },
+    {
+      "id": "tooling",
+      "title": "Инструменты разработки",
+      "description": "Дебаг, DevTools, ESLint, Prettier, тестирование.",
+      "resources": [
+        "https://ru.react.dev/learn/debugging-components",
+        "https://eslint.org/",
+        "https://testing-library.com/docs/react-testing-library/intro/"
+      ]
+    }
+  ]
+}

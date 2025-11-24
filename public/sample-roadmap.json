@@ -1,0 +1,42 @@
+{
+  "title": "React Roadmap",
+  "description": "Полная дорожная карта для изучения React с нуля до профессионала",
+  "topics": [
+    {
+      "id": "jsx-basics",
+      "title": "JSX Основы",
+      "description": "Изучение синтаксиса JSX и основные правила написания JSX кода",
+      "resources": ["https://react.dev/learn/writing-markup-with-jsx"]
+    },
+    {
+      "id": "components",
+      "title": "Компоненты",
+      "description": "Функциональные компоненты и props. Переиспользование компонентов",
+      "resources": ["https://react.dev/learn/your-first-component"]
+    },
+    {
+      "id": "state-hook",
+      "title": "State и Hook useState",
+      "description": "Управление состоянием компонента с помощью useState",
+      "resources": ["https://react.dev/reference/react/useState"]
+    },
+    {
+      "id": "effects",
+      "title": "Side Effects и useEffect",
+      "description": "Работа с побочными эффектами и жизненным циклом компонентов",
+      "resources": ["https://react.dev/reference/react/useEffect"]
+    },
+    {
+      "id": "routing",
+      "title": "React Router",
+      "description": "Маршрутизация в однострочном приложении. Навигация между страницами",
+      "resources": ["https://reactrouter.com/"]
+    },
+    {
+      "id": "context-api",
+      "title": "Context API",
+      "description": "Глобальное управление состоянием без Redux",
+      "resources": ["https://react.dev/reference/react/useContext"]
+    }
+  ]
+}
