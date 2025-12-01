@@ -74,7 +74,6 @@ function App() {
     setProgress({});
   };
 
-  // Экспорт прогресса
   const exportProgress = () => {
     if (!roadmap) {
       setError('Нет загруженной дорожной карты для экспорта');
