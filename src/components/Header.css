@@ -1,5 +1,5 @@
 .app-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #4f46e5; /* Тёмно-синий сплошной цвет */
   color: white;
   padding: 24px 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
